@@ -2,7 +2,8 @@
 //  SneakerHeaderView.swift
 //  AirJordanHistory
 //
-//  Created by jd. on 1/26/21.
+//  Created by Julian-Justin Djoum on 1/26/21.
+//  Copyright © 2021 Julian-Justin Djoum. All Rights Reserved.
 //
 
 import SwiftUI
