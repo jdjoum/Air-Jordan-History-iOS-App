@@ -3,3 +3,5 @@
 A Sneaker by Sneaker Breakdown for Sneakerheads and Basketball Fans to learn more about MJ's Unbelievable Career &amp; Legacy!
 
 #### Presented By: *Julian-Justin Djoum*
+
+Copyright © 2021 Julian-Justin Djoum. All Rights Reserved.
