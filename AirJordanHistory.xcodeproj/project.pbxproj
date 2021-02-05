@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		150E2C9125B9CFEA00D1DCB6 /* AirJordanHistoryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E2C9025B9CFEA00D1DCB6 /* AirJordanHistoryApp.swift */; };
+		150E2C9325B9CFEA00D1DCB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E2C9225B9CFEA00D1DCB6 /* ContentView.swift */; };
+		150E2C9525B9CFEF00D1DCB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150E2C9425B9CFEF00D1DCB6 /* Assets.xcassets */; };
+		150E2C9825B9CFEF00D1DCB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150E2C9725B9CFEF00D1DCB6 /* Preview Assets.xcassets */; };
+		150E2CA525B9EE2400D1DCB6 /* SneakerCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150E2CA425B9EE2400D1DCB6 /* SneakerCardView.swift */; };
+		151E34DD25C1E5A600260F43 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E34DC25C1E5A600260F43 /* SettingsView.swift */; };
+		151E34E025C1EAA100260F43 /* SettingsLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E34DF25C1EAA100260F43 /* SettingsLabelView.swift */; };
+		151E34E325C1F61800260F43 /* SettingsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151E34E225C1F61800260F43 /* SettingsRowView.swift */; };
+		15E27B6725BD206300EE1D5F /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E27B6625BD206300EE1D5F /* StartButtonView.swift */; };
+		15E27B6A25BD241E00EE1D5F /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E27B6925BD241E00EE1D5F /* OnboardingView.swift */; };
+		15E27B6E25BD269C00EE1D5F /* SneakerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E27B6D25BD269C00EE1D5F /* SneakerModel.swift */; };
+		15E27B7325BD27F600EE1D5F /* SneakerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E27B7225BD27F600EE1D5F /* SneakerData.swift */; };
+		15E27B7725BF9BE600EE1D5F /* SneakerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E27B7625BF9BE600EE1D5F /* SneakerRowView.swift */; };
+		15E27B7A25BFA22000EE1D5F /* SneakerDetailedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E27B7925BFA22000EE1D5F /* SneakerDetailedView.swift */; };
+		15E27B7D25C0724900EE1D5F /* SneakerHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E27B7C25C0724900EE1D5F /* SneakerHeaderView.swift */; };
+		15E27B8025C0751100EE1D5F /* SourceLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E27B7F25C0751100EE1D5F /* SourceLinkView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		150E2C8D25B9CFEA00D1DCB6 /* AirJordanHistory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirJordanHistory.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		150E2C9025B9CFEA00D1DCB6 /* AirJordanHistoryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirJordanHistoryApp.swift; sourceTree = "<group>"; };
+		150E2C9225B9CFEA00D1DCB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		150E2C9425B9CFEF00D1DCB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		150E2C9725B9CFEF00D1DCB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		150E2C9925B9CFEF00D1DCB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		150E2CA425B9EE2400D1DCB6 /* SneakerCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerCardView.swift; sourceTree = "<group>"; };
+		151E34DC25C1E5A600260F43 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		151E34DF25C1EAA100260F43 /* SettingsLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsLabelView.swift; sourceTree = "<group>"; };
+		151E34E225C1F61800260F43 /* SettingsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsRowView.swift; sourceTree = "<group>"; };
+		15E27B6625BD206300EE1D5F /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
+		15E27B6925BD241E00EE1D5F /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		15E27B6D25BD269C00EE1D5F /* SneakerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerModel.swift; sourceTree = "<group>"; };
+		15E27B7225BD27F600EE1D5F /* SneakerData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerData.swift; sourceTree = "<group>"; };
+		15E27B7625BF9BE600EE1D5F /* SneakerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerRowView.swift; sourceTree = "<group>"; };
+		15E27B7925BFA22000EE1D5F /* SneakerDetailedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerDetailedView.swift; sourceTree = "<group>"; };
+		15E27B7C25C0724900EE1D5F /* SneakerHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SneakerHeaderView.swift; sourceTree = "<group>"; };
+		15E27B7F25C0751100EE1D5F /* SourceLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceLinkView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		150E2C8A25B9CFEA00D1DCB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		150E2C8425B9CFEA00D1DCB6 = {
+			isa = PBXGroup;
+			children = (
+				150E2C8F25B9CFEA00D1DCB6 /* AirJordanHistory */,
+				150E2C8E25B9CFEA00D1DCB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		150E2C8E25B9CFEA00D1DCB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				150E2C8D25B9CFEA00D1DCB6 /* AirJordanHistory.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		150E2C8F25B9CFEA00D1DCB6 /* AirJordanHistory */ = {
+			isa = PBXGroup;
+			children = (
+				15E27B7125BD27E300EE1D5F /* Data */,
+				15E27B6C25BD268900EE1D5F /* Model */,
+				150E2CA325B9EDB800D1DCB6 /* View */,
+				150E2CA125B9ED8600D1DCB6 /* App */,
+				150E2C9425B9CFEF00D1DCB6 /* Assets.xcassets */,
+				150E2C9925B9CFEF00D1DCB6 /* Info.plist */,
+				150E2C9625B9CFEF00D1DCB6 /* Preview Content */,
+			);
+			path = AirJordanHistory;
+			sourceTree = "<group>";
+		};
+		150E2C9625B9CFEF00D1DCB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				150E2C9725B9CFEF00D1DCB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		150E2CA125B9ED8600D1DCB6 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				150E2C9025B9CFEA00D1DCB6 /* AirJordanHistoryApp.swift */,
+				150E2C9225B9CFEA00D1DCB6 /* ContentView.swift */,
+				15E27B6925BD241E00EE1D5F /* OnboardingView.swift */,
+				15E27B7925BFA22000EE1D5F /* SneakerDetailedView.swift */,
+				151E34DC25C1E5A600260F43 /* SettingsView.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		150E2CA325B9EDB800D1DCB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				150E2CA425B9EE2400D1DCB6 /* SneakerCardView.swift */,
+				15E27B6625BD206300EE1D5F /* StartButtonView.swift */,
+				15E27B7625BF9BE600EE1D5F /* SneakerRowView.swift */,
+				15E27B7C25C0724900EE1D5F /* SneakerHeaderView.swift */,
+				15E27B7F25C0751100EE1D5F /* SourceLinkView.swift */,
+				151E34DF25C1EAA100260F43 /* SettingsLabelView.swift */,
+				151E34E225C1F61800260F43 /* SettingsRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		15E27B6C25BD268900EE1D5F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				15E27B6D25BD269C00EE1D5F /* SneakerModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		15E27B7125BD27E300EE1D5F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				15E27B7225BD27F600EE1D5F /* SneakerData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		150E2C8C25B9CFEA00D1DCB6 /* AirJordanHistory */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 150E2C9C25B9CFEF00D1DCB6 /* Build configuration list for PBXNativeTarget "AirJordanHistory" */;
+			buildPhases = (
+				150E2C8925B9CFEA00D1DCB6 /* Sources */,
+				150E2C8A25B9CFEA00D1DCB6 /* Frameworks */,
+				150E2C8B25B9CFEA00D1DCB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirJordanHistory;
+			productName = AirJordanHistory;
+			productReference = 150E2C8D25B9CFEA00D1DCB6 /* AirJordanHistory.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		150E2C8525B9CFEA00D1DCB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					150E2C8C25B9CFEA00D1DCB6 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 150E2C8825B9CFEA00D1DCB6 /* Build configuration list for PBXProject "AirJordanHistory" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 150E2C8425B9CFEA00D1DCB6;
+			productRefGroup = 150E2C8E25B9CFEA00D1DCB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				150E2C8C25B9CFEA00D1DCB6 /* AirJordanHistory */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		150E2C8B25B9CFEA00D1DCB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150E2C9825B9CFEF00D1DCB6 /* Preview Assets.xcassets in Resources */,
+				150E2C9525B9CFEF00D1DCB6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		150E2C8925B9CFEA00D1DCB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				150E2CA525B9EE2400D1DCB6 /* SneakerCardView.swift in Sources */,
+				15E27B8025C0751100EE1D5F /* SourceLinkView.swift in Sources */,
+				15E27B6725BD206300EE1D5F /* StartButtonView.swift in Sources */,
+				150E2C9325B9CFEA00D1DCB6 /* ContentView.swift in Sources */,
+				15E27B7725BF9BE600EE1D5F /* SneakerRowView.swift in Sources */,
+				15E27B7A25BFA22000EE1D5F /* SneakerDetailedView.swift in Sources */,
+				151E34E325C1F61800260F43 /* SettingsRowView.swift in Sources */,
+				151E34E025C1EAA100260F43 /* SettingsLabelView.swift in Sources */,
+				15E27B7D25C0724900EE1D5F /* SneakerHeaderView.swift in Sources */,
+				15E27B6A25BD241E00EE1D5F /* OnboardingView.swift in Sources */,
+				150E2C9125B9CFEA00D1DCB6 /* AirJordanHistoryApp.swift in Sources */,
+				151E34DD25C1E5A600260F43 /* SettingsView.swift in Sources */,
+				15E27B7325BD27F600EE1D5F /* SneakerData.swift in Sources */,
+				15E27B6E25BD269C00EE1D5F /* SneakerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		150E2C9A25B9CFEF00D1DCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		150E2C9B25B9CFEF00D1DCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		150E2C9D25B9CFEF00D1DCB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AirJordanHistory/Preview Content\"";
+				DEVELOPMENT_TEAM = 6RR96TCUAY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AirJordanHistory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDJOUM.AirJordanHistory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		150E2C9E25B9CFEF00D1DCB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"AirJordanHistory/Preview Content\"";
+				DEVELOPMENT_TEAM = 6RR96TCUAY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = AirJordanHistory/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.JDJOUM.AirJordanHistory;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		150E2C8825B9CFEA00D1DCB6 /* Build configuration list for PBXProject "AirJordanHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150E2C9A25B9CFEF00D1DCB6 /* Debug */,
+				150E2C9B25B9CFEF00D1DCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		150E2C9C25B9CFEF00D1DCB6 /* Build configuration list for PBXNativeTarget "AirJordanHistory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				150E2C9D25B9CFEF00D1DCB6 /* Debug */,
+				150E2C9E25B9CFEF00D1DCB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 150E2C8525B9CFEA00D1DCB6 /* Project object */;
+}
