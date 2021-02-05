@@ -2,7 +2,7 @@
 //  SneakerCardView.swift
 //  AirJordanHistory
 //
-//  Created by Julian-Justin Djoum on 1/23/21.
+//  Created by Julian-Justin Djoum on 1/21/21.
 //  Copyright © 2021 Julian-Justin Djoum. All Rights Reserved.
 //
 
